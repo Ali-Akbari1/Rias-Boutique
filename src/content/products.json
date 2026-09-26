@@ -2078,6 +2078,31 @@
       "description": "Beautiful short dress with gulabatoon embroidery and wide-legged pants. ",
       "price_on_inquiry": false,
       "category": "Party Wear"
+    },
+    {
+      "fabric": "Crushed Velvet ",
+      "price": 380,
+      "galleryImages": [
+        "/uploads/img_4216.jpg"
+      ],
+      "name": "Blue Gulabatoon Dress",
+      "slug": "blue-gulabatoon-short-dress",
+      "maxQuantity": 1,
+      "sizes": [
+        "Small"
+      ],
+      "department": "women",
+      "tags": [
+        "gulabatoon"
+      ],
+      "id": "blue-gulabatoon-short-dress",
+      "createdAt": "2026-09-26",
+      "image": "/uploads/img_4216.jpg",
+      "inventory": "available",
+      "description": "Beautiful short dress with gulabatoon embroidery and wide-legged pants.\n\n",
+      "price_on_inquiry": false,
+      "category": "Party Wear",
+      "fitInfo": "Measurement:\n-Bust: 40in"
     }
   ]
 }
