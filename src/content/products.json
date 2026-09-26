@@ -2051,6 +2051,33 @@
       "price_on_inquiry": false,
       "category": "Party Wear",
       "fitInfo": "What's Included:\n-Dress\n-Wide-legged pants\n-Embroidered pants\n\nMeasurements: \n-Bust: 40 in\n-Shoulders: 16 in\n-Sleeves: 20 in\n-Length of daman: 26 in\n"
+    },
+    {
+      "fabric": "Crushed velvet ",
+      "price": 380,
+      "galleryImages": [
+        "/uploads/img_4225.jpg"
+      ],
+      "name": "Pink Gulabatoon Dress",
+      "slug": "pink-gulabatoon-short-dress",
+      "maxQuantity": 1,
+      "colors": [
+        "Pink"
+      ],
+      "sizes": [
+        "Large"
+      ],
+      "department": "women",
+      "tags": [
+        "gulabatoon"
+      ],
+      "id": "pink-gulabatoon-short-dress",
+      "createdAt": "2026-09-26",
+      "image": "/uploads/img_4225.jpg",
+      "inventory": "available",
+      "description": "Beautiful short dress with gulabatoon embroidery and wide-legged pants. ",
+      "price_on_inquiry": false,
+      "category": "Party Wear"
     }
   ]
 }
