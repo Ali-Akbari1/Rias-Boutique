@@ -1925,7 +1925,7 @@
     },
     {
       "fabric": "Thick Georgette",
-      "price": 200,
+      "price": 250,
       "galleryImages": [
         "/uploads/img_4107.webp"
       ],
@@ -1950,6 +1950,7 @@
       "description": "White Hazaragi dress with rhinestones",
       "price_on_inquiry": false,
       "category": "Party Wear",
+      "salePercent": 50,
       "fitInfo": "What's Included:\n-Dress\n-Wide-Legged Pants\n-Embroidered scarf"
     },
     {
