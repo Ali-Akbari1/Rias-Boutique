@@ -476,7 +476,7 @@ const ZoomableImageDialog = ({ src, images, initialIndex, alt, title, children }
 
         <div
           ref={viewportRef}
-          className={`min-h-0 flex-1 overflow-hidden rounded-md border border-border/60 bg-black/65 touch-none ${transform.zoom > MIN_ZOOM ? "cursor-grab active:cursor-grabbing" : "cursor-zoom-in"}`}
+          className={`min-h-0 flex-1 overflow-hidden rounded-md border border-border/60 bg-muted/40 touch-none ${transform.zoom > MIN_ZOOM ? "cursor-grab active:cursor-grabbing" : "cursor-zoom-in"}`}
           onWheel={handleWheel}
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}

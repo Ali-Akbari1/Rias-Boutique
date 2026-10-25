@@ -343,8 +343,8 @@ const ProductDetails = () => {
           Back to Collection
         </Link>
 
-        <section className="grid gap-8 lg:grid-cols-[1fr_1fr]">
-          <div className="space-y-4">
+        <section className="grid gap-8 lg:grid-cols-[minmax(0,36rem)_minmax(0,1fr)] lg:items-start lg:gap-20 lg:pl-20 xl:pl-40 lg:pr-4 xl:pr-8">
+          <div className="mx-auto w-full max-w-[22rem] space-y-3 sm:max-w-[28rem] lg:max-w-none lg:sticky lg:top-32">
             <div className="relative overflow-hidden rounded-md border border-border bg-card">
               <ZoomableImageDialog
                 src={primaryImage}
@@ -354,11 +354,11 @@ const ProductDetails = () => {
                 title={`${product.name} image`}
               >
                 <button type="button" className="relative block h-full w-full cursor-zoom-in">
-                  <div className="relative h-[380px] w-full bg-muted/20 sm:h-[500px] lg:h-[620px]">
+                  <div className="relative aspect-[4/5] w-full bg-muted/20">
                     <img
                       src={activeImage || primaryImage}
                       alt={productAlt}
-                      className={`absolute inset-0 h-full w-full object-contain ${
+                      className={`absolute inset-0 h-full w-full object-cover object-center ${
                         transitionImage ? "motion-safe:animate-image-crossfade-out" : ""
                       }`}
                     />
@@ -366,7 +366,7 @@ const ProductDetails = () => {
                       <img
                         src={transitionImage}
                         alt={productAlt}
-                        className="pointer-events-none absolute inset-0 h-full w-full object-contain opacity-0 motion-safe:animate-image-crossfade-in"
+                        className="pointer-events-none absolute inset-0 h-full w-full object-cover object-center opacity-0 motion-safe:animate-image-crossfade-in"
                       />
                     ) : null}
                   </div>
@@ -408,7 +408,7 @@ const ProductDetails = () => {
                 </>
               ) : null}
             </div>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-4 gap-3">
               {galleryImages.map((image, index) => (
                 <button
                   key={`${product.id}-${index}`}
@@ -421,14 +421,14 @@ const ProductDetails = () => {
                   <img
                     src={image}
                     alt={`${productAlt} view ${index + 1}`}
-                    className="h-28 w-full object-contain bg-muted/20"
+                    className="aspect-[4/5] w-full bg-muted/20 object-cover object-center"
                   />
                 </button>
               ))}
             </div>
           </div>
 
-          <div className="space-y-6">
+          <div className="max-w-2xl space-y-6 lg:ml-auto">
             <div>
               <p className="mb-1 text-xs font-body uppercase tracking-[0.2em] text-gold">{product.category}</p>
               <h1 className="font-display text-4xl font-bold text-foreground">{product.name}</h1>
