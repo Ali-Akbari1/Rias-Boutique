@@ -2077,6 +2077,12 @@
         "Large"
       ],
       "department": "women",
+      "customerLooks": [
+        {
+          "instagramUrl": "https://www.instagram.com/p/DdhiTjvEupj/?img_index=1",
+          "image": "/uploads/img_5063.jpg"
+        }
+      ],
       "tags": [
         "gulabatoon"
       ],
