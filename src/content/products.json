@@ -1116,6 +1116,12 @@
         "Large"
       ],
       "department": "women",
+      "customerLooks": [
+        {
+          "image": "/uploads/screenshot-2026-10-25-at-5.11.52 pm.png",
+          "instagramUrl": "https://www.instagram.com/reel/DRKN7dlAJtI/?utm_source=ig_web_copy_link&obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA=="
+        }
+      ],
       "careInstructions": [
         "Dry Clean Only"
       ],
