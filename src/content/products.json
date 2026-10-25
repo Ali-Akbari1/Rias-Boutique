@@ -1859,6 +1859,13 @@
         "Green"
       ],
       "department": "women",
+      "customerLooks": [
+        {
+          "image": "/uploads/5b78c3e0-c9e4-4fcc-b3f7-fc6629023740.jpg",
+          "altText": "Our beautiful bride on her Alqa (engagement) day",
+          "instagramUrl": "https://www.instagram.com/p/Dd5HAqJJkrn/?utm_source=ig_web_copy_link&srtk=MzRlODBiNWFlZA=="
+        }
+      ],
       "careInstructions": [
         "Dry Clean Only"
       ],
