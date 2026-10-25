@@ -2105,6 +2105,33 @@
       "price_on_inquiry": false,
       "category": "Party Wear",
       "fitInfo": "Measurement:\n-Bust: 40in"
+    },
+    {
+      "fabric": "Banaras",
+      "galleryImages": [
+        "/uploads/img_4416.jpg",
+        "/uploads/img_4421.jpg"
+      ],
+      "name": "Mursal Bridal Dress ",
+      "slug": "mursal-bridal-green-banaras-dress",
+      "colors": [
+        "Green"
+      ],
+      "compareAtPrice": 1,
+      "department": "women",
+      "tags": [
+        "bridal",
+        "wedding",
+        "banaras",
+        "green"
+      ],
+      "id": "mursal-bridal-green-banaras-dress",
+      "createdAt": "2026-10-25",
+      "image": "/uploads/img_4416.jpg",
+      "inventory": "available",
+      "description": "Beautiful bridal Nikkah dress with matching men's vest ",
+      "price_on_inquiry": true,
+      "category": "Bridal"
     }
   ]
 }
