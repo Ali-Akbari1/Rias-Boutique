@@ -131,7 +131,7 @@
     <lastmod>2026-02-23</lastmod>
   </url>
   <url>
-    <loc>https://www.riasboutique.com/products/Burgundy-bridal-dress</loc>
+    <loc>https://www.riasboutique.com/products/burgundy-bridal-dress-with-mens-vest</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-02-23</lastmod>
@@ -221,7 +221,7 @@
     <lastmod>2026-04-04</lastmod>
   </url>
   <url>
-    <loc>https://www.riasboutique.com/products/Lilac-purple-gulabatoon%20dress</loc>
+    <loc>https://www.riasboutique.com/products/lilac-purple-gulabatoon-dress</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-04-04</lastmod>
@@ -453,5 +453,23 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://www.riasboutique.com/products/pink-gulabatoon-short-dress</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.riasboutique.com/products/blue-gulabatoon-short-dress</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.riasboutique.com/products/mursal-bridal-green-banaras-dress</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-25</lastmod>
   </url>
 </urlset>

@@ -343,8 +343,8 @@
         "/uploads/purple-banaras-dress-3.webp",
         "/uploads/purple-banaras-dress-4.webp"
       ],
-      "name": "Purple Banaras Dress ",
-      "slug": "Purple-Banaras-Dress ",
+      "name": "Purple Banaras Dress",
+      "slug": "Purple-Banaras-Dress",
       "colors": [
         "Purple"
       ],
@@ -355,7 +355,7 @@
       "careInstructions": [
         "Dry Clean Only "
       ],
-      "id": "Purple-Banaras-Dress ",
+      "id": "Purple-Banaras-Dress",
       "createdAt": "2026-02-19",
       "image": "/uploads/purple-banaras-dress-1.webp",
       "inventory": "sold_out",
@@ -464,7 +464,7 @@
         "/uploads/burgundy-bridal-dress-with-mens-vest-1.webp"
       ],
       "name": "Burgundy Bridal Dress with Mens Vest",
-      "slug": "Burgundy-bridal-dress",
+      "slug": "burgundy-bridal-dress-with-mens-vest",
       "colors": [
         "Burgundy"
       ],
@@ -472,7 +472,7 @@
         "Medium"
       ],
       "department": "women",
-      "id": "Burgundy-bridal-dress",
+      "id": "burgundy-bridal-dress-with-mens-vest",
       "createdAt": "2026-02-23",
       "image": "/uploads/burgundy-bridal-dress-with-mens-vest-1.webp",
       "inventory": "sold_out",
@@ -909,7 +909,7 @@
         "/uploads/img_1419.webp"
       ],
       "name": "Lilac Gulabatoon Dress",
-      "slug": "Lilac-purple-gulabatoon dress",
+      "slug": "lilac-purple-gulabatoon-dress",
       "maxQuantity": 1,
       "colors": [
         "Lilac"
@@ -918,7 +918,7 @@
         "Large"
       ],
       "department": "women",
-      "id": "Lilac-purple-gulabatoon dress",
+      "id": "lilac-purple-gulabatoon-dress",
       "createdAt": "2026-04-04",
       "image": "/uploads/img_1403.webp",
       "inventory": "available",
@@ -1213,8 +1213,8 @@
         "/uploads/img_2027.webp",
         "/uploads/size-chart-mens-final-ria-s-boutique.webp"
       ],
-      "name": "Collared Mens Embroidered Parantoban ",
-      "slug": "collared-mens-white-parantoban ",
+      "name": "Collared Mens Embroidered Parantoban",
+      "slug": "collared-mens-white-parantoban",
       "maxQuantity": 1,
       "colors": [
         "True White"
@@ -1232,7 +1232,7 @@
         "mens ",
         "machine made "
       ],
-      "id": "collared-mens-white-parantoban ",
+      "id": "collared-mens-white-parantoban",
       "createdAt": "2026-05-05",
       "image": "/uploads/img_2031.webp",
       "inventory": "available",

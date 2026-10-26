@@ -773,11 +773,11 @@
     <g:size>Small</g:size>
   </item>
   <item>
-    <g:id>Burgundy-bridal-dress-medium-burgundy</g:id>
-    <g:item_group_id>Burgundy-bridal-dress</g:item_group_id>
+    <g:id>burgundy-bridal-dress-with-mens-vest-medium-burgundy</g:id>
+    <g:item_group_id>burgundy-bridal-dress-with-mens-vest</g:item_group_id>
     <title>Burgundy Bridal Dress with Mens Vest</title>
     <description>Bridal burgundy dress with handmade cheerma and matching men&apos;s vest.</description>
-    <link>https://www.riasboutique.com/products/Burgundy-bridal-dress</link>
+    <link>https://www.riasboutique.com/products/burgundy-bridal-dress-with-mens-vest</link>
     <g:image_link>https://www.riasboutique.com/uploads/burgundy-bridal-dress-with-mens-vest-1.webp</g:image_link>
     <g:availability>out_of_stock</g:availability>
     <g:price>481.00 USD</g:price>
@@ -1363,11 +1363,11 @@
     <g:size>Large</g:size>
   </item>
   <item>
-    <g:id>Lilac-purple-gulabatoon dress-large-lilac</g:id>
-    <g:item_group_id>Lilac-purple-gulabatoon dress</g:item_group_id>
+    <g:id>lilac-purple-gulabatoon-dress-large-lilac</g:id>
+    <g:item_group_id>lilac-purple-gulabatoon-dress</g:item_group_id>
     <title>Lilac Gulabatoon Dress</title>
     <description>Long lilac dress with gulabatoon detailing.</description>
-    <link>https://www.riasboutique.com/products/Lilac-purple-gulabatoon%20dress</link>
+    <link>https://www.riasboutique.com/products/lilac-purple-gulabatoon-dress</link>
     <g:image_link>https://www.riasboutique.com/uploads/img_1403.webp</g:image_link>
     <g:additional_image_link>https://www.riasboutique.com/uploads/img_1417-2.webp</g:additional_image_link>
     <g:additional_image_link>https://www.riasboutique.com/uploads/img_1419.webp</g:additional_image_link>
@@ -2176,7 +2176,7 @@
     <g:image_link>https://www.riasboutique.com/uploads/img_4012.webp</g:image_link>
     <g:additional_image_link>https://www.riasboutique.com/uploads/img_4019.webp</g:additional_image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>370.00 USD</g:price>
+    <g:price>407.00 USD</g:price>
     <g:condition>new</g:condition>
     <g:brand>Ria&apos;s Boutique</g:brand>
     <g:identifier_exists>no</g:identifier_exists>
@@ -2223,7 +2223,8 @@
     <link>https://www.riasboutique.com/products/white-on-white-hazaragi-dress-2</link>
     <g:image_link>https://www.riasboutique.com/uploads/img_4107.webp</g:image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>148.00 USD</g:price>
+    <g:price>185.00 USD</g:price>
+    <g:sale_price>92.50 USD</g:sale_price>
     <g:condition>new</g:condition>
     <g:brand>Ria&apos;s Boutique</g:brand>
     <g:identifier_exists>no</g:identifier_exists>
@@ -2247,7 +2248,8 @@
     <link>https://www.riasboutique.com/products/white-on-white-hazaragi-dress-2</link>
     <g:image_link>https://www.riasboutique.com/uploads/img_4107.webp</g:image_link>
     <g:availability>in_stock</g:availability>
-    <g:price>148.00 USD</g:price>
+    <g:price>185.00 USD</g:price>
+    <g:sale_price>92.50 USD</g:sale_price>
     <g:condition>new</g:condition>
     <g:brand>Ria&apos;s Boutique</g:brand>
     <g:identifier_exists>no</g:identifier_exists>
@@ -2332,6 +2334,53 @@
       <g:service>Standard</g:service>
       <g:price>29.60 USD</g:price>
     </g:shipping>
+  </item>
+  <item>
+    <g:id>pink-gulabatoon-short-dress-large-pink</g:id>
+    <g:item_group_id>pink-gulabatoon-short-dress</g:item_group_id>
+    <title>Pink Gulabatoon Dress</title>
+    <description>Beautiful short dress with gulabatoon embroidery and wide-legged pants.</description>
+    <link>https://www.riasboutique.com/products/pink-gulabatoon-short-dress</link>
+    <g:image_link>https://www.riasboutique.com/uploads/img_4225.jpg</g:image_link>
+    <g:availability>out_of_stock</g:availability>
+    <g:price>281.20 USD</g:price>
+    <g:condition>new</g:condition>
+    <g:brand>Ria&apos;s Boutique</g:brand>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:product_type>Party Wear</g:product_type>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:gender>female</g:gender>
+    <g:age_group>adult</g:age_group>
+    <g:shipping>
+      <g:country>US</g:country>
+      <g:service>Standard</g:service>
+      <g:price>29.60 USD</g:price>
+    </g:shipping>
+    <g:color>Pink</g:color>
+    <g:size>Large</g:size>
+  </item>
+  <item>
+    <g:id>blue-gulabatoon-short-dress-small-default</g:id>
+    <g:item_group_id>blue-gulabatoon-short-dress</g:item_group_id>
+    <title>Blue Gulabatoon Dress</title>
+    <description>Beautiful short dress with gulabatoon embroidery and wide-legged pants.</description>
+    <link>https://www.riasboutique.com/products/blue-gulabatoon-short-dress</link>
+    <g:image_link>https://www.riasboutique.com/uploads/img_4216.jpg</g:image_link>
+    <g:availability>out_of_stock</g:availability>
+    <g:price>281.20 USD</g:price>
+    <g:condition>new</g:condition>
+    <g:brand>Ria&apos;s Boutique</g:brand>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:product_type>Party Wear</g:product_type>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:gender>female</g:gender>
+    <g:age_group>adult</g:age_group>
+    <g:shipping>
+      <g:country>US</g:country>
+      <g:service>Standard</g:service>
+      <g:price>29.60 USD</g:price>
+    </g:shipping>
+    <g:size>Small</g:size>
   </item>
 </channel>
 </rss>

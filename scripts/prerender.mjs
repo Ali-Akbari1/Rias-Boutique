@@ -23,10 +23,10 @@ const setById = (html, id, attribute, value) => {
   if (!pattern.test(html)) {
     throw new Error(`[prerender] template is missing #${id}`);
   }
-  return html.replace(pattern, `$1${escapeAttr(value)}$2`);
+  return html.replace(pattern, (_, before, after) => `${before}${escapeAttr(value)}${after}`);
 };
 
-const setTitle = (html, title) => html.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeAttr(title)}</title>`);
+const setTitle = (html, title) => html.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${escapeAttr(title)}</title>`);
 
 const fallbackStyle =
   "<style>[data-prerender-fallback]{max-width:64rem;margin:0 auto;padding:7rem 1rem 2rem;line-height:1.6}" +
@@ -69,8 +69,9 @@ const renderRoute = (path) => {
     .filter(Boolean)
     .join("\n    ");
 
-  html = html.replace("</head>", `    ${headTags}\n  </head>`);
-  html = html.replace('<div id="root"></div>', `<div id="root">${renderFallbackBody(head)}</div>`);
+  // Function replacements so "$" sequences in content (e.g. priceRange "$$") are not treated as patterns.
+  html = html.replace("</head>", () => `    ${headTags}\n  </head>`);
+  html = html.replace('<div id="root"></div>', () => `<div id="root">${renderFallbackBody(head)}</div>`);
   return html;
 };
 

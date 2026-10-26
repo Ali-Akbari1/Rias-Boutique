@@ -3,7 +3,7 @@ import { getProductById, getProductBySlug, hasDisplayPrice, type Product } from 
 import { getClientCommerceConfig } from "@/lib/commerce-config";
 import { faqItems, getInstagramProfileUrl, getStorePickupDetails } from "@/features/store/data/store-content";
 
-const DEFAULT_TITLE = "Ria's Boutique | Afghan Clothing, Afghan Dresses, Afghan Boutique in Canada";
+const DEFAULT_TITLE = "Afghan Dresses & Clothing in Calgary | Ria's Boutique";
 const DEFAULT_DESCRIPTION =
   "Shop handcrafted Afghan dresses, bridal wear, and traditional outfits in Canada from Ria's Boutique.";
 const STORE_NAME = "Ria's Boutique";
@@ -11,6 +11,14 @@ const STORE_LOGO_PATH = "/RAb.png";
 const ORGANIZATION_ID = `${SITE_URL}#organization`;
 const WEBSITE_ID = `${SITE_URL}#website`;
 const STORE_ID = `${SITE_URL}#store`;
+const STORE_POSTAL_ADDRESS = {
+  "@type": "PostalAddress",
+  streetAddress: "260300 Writing Creek Cres Floor 1, Unit H10B",
+  addressLocality: "Balzac",
+  addressRegion: "AB",
+  postalCode: "T4A 0X8",
+  addressCountry: "CA",
+};
 const commerceConfig = getClientCommerceConfig();
 
 type JsonLdNode = Record<string, unknown>;
@@ -112,11 +120,7 @@ const buildOrganizationSchema = (): JsonLdNode => {
       areaServed: ["CA", "US"],
       availableLanguage: ["en"],
     },
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: pickupDetails.address,
-      addressCountry: "CA",
-    },
+    address: STORE_POSTAL_ADDRESS,
     ...(sameAs.length > 0 ? { sameAs } : {}),
   };
 };
@@ -137,28 +141,36 @@ const buildWebsiteSchema = (): JsonLdNode => ({
   },
 });
 
+// The single store entity for the whole site (index.html used to carry a second copy).
 const buildLocalBusinessSchema = (): JsonLdNode => {
   const pickupDetails = getStorePickupDetails();
+  const instagramUrl = getInstagramProfileUrl();
+  const sameAs = [instagramUrl].filter((url) => url && url !== "https://www.instagram.com/");
 
   return {
     "@type": "ClothingStore",
     "@id": STORE_ID,
-    name: "Ria's Afghan Boutique",
+    name: STORE_NAME,
+    alternateName: "Ria's Afghan Boutique",
+    description:
+      "Afghan boutique in the Calgary area offering handcrafted Afghan dresses, bridal wear, and traditional clothing.",
     url: SITE_URL,
+    logo: toAbsoluteUrl(STORE_LOGO_PATH),
     image: toAbsoluteUrl(STORE_LOGO_PATH),
     telephone: pickupDetails.phoneHref,
+    email: "rias.afghanboutique@gmail.com",
+    priceRange: "$$",
+    currenciesAccepted: "CAD",
     hasMap: pickupDetails.mapsUrl,
     parentOrganization: {
       "@id": ORGANIZATION_ID,
     },
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: pickupDetails.address,
-      addressLocality: "Balzac",
-      addressRegion: "AB",
-      postalCode: "T4A 0X8",
-      addressCountry: "CA",
-    },
+    address: STORE_POSTAL_ADDRESS,
+    areaServed: [
+      { "@type": "City", name: "Calgary" },
+      { "@type": "Country", name: "Canada" },
+    ],
+    ...(sameAs.length > 0 ? { sameAs } : {}),
   };
 };
 
