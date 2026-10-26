@@ -41,7 +41,9 @@ const renderProductLinks = (items: Product[]) =>
         )
         .join("")}</ul>`;
 
-const siteNav = `<nav aria-label="Site"><a href="/">Home</a> | <a href="/collection/women">Women</a> | <a href="/collection/men">Men</a> | <a href="/collection/jewelry">Jewelry</a> | <a href="/about">About</a> | <a href="/location">Location</a> | <a href="/faq">FAQ</a></nav>`;
+const HOME_PRODUCT_LINK_COUNT = 12;
+
+const siteNav =`<nav aria-label="Site"><a href="/">Home</a> | <a href="/collection/women">Women</a> | <a href="/collection/men">Men</a> | <a href="/collection/jewelry">Jewelry</a> | <a href="/about">About</a> | <a href="/location">Location</a> | <a href="/faq">FAQ</a></nav>`;
 
 // Plain-HTML version of the page for crawlers that do not execute JavaScript. React replaces
 // it on mount (createRoot().render), so it mirrors what users see rather than hiding anything.
@@ -65,6 +67,14 @@ export const renderFallbackBody = (head: RouteHead) => {
   } else {
     const heading = canonicalPath === "/" ? "Ria's Boutique - Afghan Clothing & Dresses" : head.title.split(" | ")[0];
     parts.push(`<h1>${escapeHtml(heading)}</h1>`, `<p>${escapeHtml(head.description)}</p>`);
+    if (canonicalPath === "/") {
+      // The live carousel shuffles its picks, so crawlers get the newest purchasable products.
+      const newest = products
+        .filter((item) => item.availability !== "sold_out" && !item.priceOnInquiry)
+        .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+        .slice(0, HOME_PRODUCT_LINK_COUNT);
+      parts.push("<h2>New Arrivals</h2>", renderProductLinks(newest));
+    }
   }
 
   return `<div data-prerender-fallback>${parts.filter(Boolean).join("")}</div>`;

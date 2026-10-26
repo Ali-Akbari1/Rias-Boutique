@@ -17,6 +17,16 @@
       "handle": "filesystem"
     },
     {
+      "src": "/products/Burgundy-bridal-dress/?",
+      "status": 308,
+      "headers": { "Location": "/products/burgundy-bridal-dress-with-mens-vest" }
+    },
+    {
+      "src": "/products/Lilac-purple-gulabatoon(%20| )dress/?",
+      "status": 308,
+      "headers": { "Location": "/products/lilac-purple-gulabatoon-dress" }
+    },
+    {
       "src": "/api/health",
       "dest": "/api/order-status?health=1"
     },

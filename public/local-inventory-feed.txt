@@ -29,7 +29,7 @@ store_code	id	availability	price
 16335217184145401742	red-gharara-bridal-dress-medium-red	out_of_stock	450.00 CAD
 16335217184145401742	Burgundy-Banaras-Dress-large-burgundy	out_of_stock	450.00 CAD
 16335217184145401742	Chapan-blue-gulabatoon-small-dark-blue	in_stock	200.00 CAD
-16335217184145401742	Burgundy-bridal-dress-medium-burgundy	out_of_stock	650.00 CAD
+16335217184145401742	burgundy-bridal-dress-with-mens-vest-medium-burgundy	out_of_stock	650.00 CAD
 16335217184145401742	men-black-gold-small-black-with-gold	in_stock	115.00 CAD
 16335217184145401742	men-black-gold-large-black-with-gold	in_stock	115.00 CAD
 16335217184145401742	men-black-gold-x-large-black-with-gold	in_stock	115.00 CAD
@@ -52,7 +52,7 @@ store_code	id	availability	price
 16335217184145401742	true-white-mens-parantoban-one-size-true-white	out_of_stock	115.00 CAD
 16335217184145401742	dark-blue-cheerma-dozi-machini-small-dark-blue	out_of_stock	450.00 CAD
 16335217184145401742	blue-banaras-dress-large-blue	out_of_stock	550.00 CAD
-16335217184145401742	Lilac-purple-gulabatoon dress-large-lilac	in_stock	400.00 CAD
+16335217184145401742	lilac-purple-gulabatoon-dress-large-lilac	in_stock	400.00 CAD
 16335217184145401742	barosha-purple-shortdress-medium-lilac	out_of_stock	350.00 CAD
 16335217184145401742	dual-color-banaras-pink-dress-small-pink	out_of_stock	450.00 CAD
 16335217184145401742	dual-colour-short-banaras-blue-dress-small-blue	out_of_stock	450.00 CAD
@@ -84,10 +84,12 @@ store_code	id	availability	price
 16335217184145401742	dark-green-bridal-dress-medium-default	out_of_stock	450.00 CAD
 16335217184145401742	Red-long-Cheerma-Dozi-Dress-x-large-red	in_stock	280.00 CAD
 16335217184145401742	burgundy-cheerma-dozi-dress-short-medium-burgundy	in_stock	450.00 CAD
-16335217184145401742	Bridal-Green-Banaras-Dress-one-size-default	in_stock	500.00 CAD
+16335217184145401742	Bridal-Green-Banaras-Dress-one-size-default	in_stock	550.00 CAD
 16335217184145401742	red-bridal-cheerma-dozi-silver-medium-red	out_of_stock	450.00 CAD
-16335217184145401742	white-on-white-hazaragi-dress-2-medium-white	in_stock	200.00 CAD
-16335217184145401742	white-on-white-hazaragi-dress-2-large-white	in_stock	200.00 CAD
+16335217184145401742	white-on-white-hazaragi-dress-2-medium-white	in_stock	125.00 CAD
+16335217184145401742	white-on-white-hazaragi-dress-2-large-white	in_stock	125.00 CAD
 16335217184145401742	gulbakhmal-short-dress-teal-medium-teal	in_stock	450.00 CAD
 16335217184145401742	kochi-gul-e-bakhmal-dress-blue-small-blue	in_stock	450.00 CAD
 16335217184145401742	short-white-cheerma-dozi-dress-one-size-default	in_stock	450.00 CAD
+16335217184145401742	pink-gulabatoon-short-dress-large-pink	out_of_stock	380.00 CAD
+16335217184145401742	blue-gulabatoon-short-dress-small-default	out_of_stock	380.00 CAD
