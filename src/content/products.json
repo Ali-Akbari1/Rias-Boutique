@@ -2169,6 +2169,32 @@
       "description": "Beautiful bridal Nikkah dress with matching men's vest ",
       "price_on_inquiry": true,
       "category": "Bridal"
+    },
+    {
+      "price": 280,
+      "galleryImages": [
+        "/uploads/img_4435.png"
+      ],
+      "name": "Lilimitten Black Short Dress",
+      "slug": "Lilimitten-Black-Short-Dress",
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "Medium"
+      ],
+      "department": "women",
+      "tags": [
+        "lilimitten"
+      ],
+      "id": "Lilimitten-Black-Short-Dress",
+      "createdAt": "2026-10-26",
+      "image": "/uploads/img_4435.png",
+      "inventory": "available",
+      "description": "Shor lilimitten dress with cheerms detailing. ",
+      "price_on_inquiry": false,
+      "category": "Party Wear",
+      "fitInfo": "Whats Included:\n-Dress\n-Pants\n-Embroidered scarf"
     }
   ]
 }
