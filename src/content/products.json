@@ -2195,6 +2195,34 @@
       "price_on_inquiry": false,
       "category": "Party Wear",
       "fitInfo": "Whats Included:\n-Dress\n-Pants\n-Embroidered scarf"
+    },
+    {
+      "fabric": "Georgette",
+      "price": 200,
+      "galleryImages": [
+        "/uploads/fc42ef05-cb25-470a-aa9a-2da6ca4cd9f3.jpg"
+      ],
+      "name": "Teal Hazaragi Dress",
+      "slug": "teal-hazaragi-dress-rhinestones",
+      "colors": [
+        "Teal"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "department": "women",
+      "tags": [
+        "hazaragi "
+      ],
+      "id": "teal-hazaragi-dress-rhinestones",
+      "createdAt": "2026-10-28",
+      "image": "/uploads/fc42ef05-cb25-470a-aa9a-2da6ca4cd9f3.jpg",
+      "inventory": "available",
+      "description": "Teal hazaragi dress with rhinestones",
+      "price_on_inquiry": false,
+      "category": "Party Wear"
     }
   ]
 }
