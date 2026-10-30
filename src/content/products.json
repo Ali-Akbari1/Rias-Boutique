@@ -2223,6 +2223,35 @@
       "description": "Teal hazaragi dress with rhinestones",
       "price_on_inquiry": false,
       "category": "Party Wear"
+    },
+    {
+      "fabric": "Satin",
+      "price": 300,
+      "galleryImages": [
+        "/uploads/img_4251-2.jpg",
+        "/uploads/img_4445.jpg",
+        "/uploads/img_4446.jpg"
+      ],
+      "name": "Satin Dress 1 ",
+      "slug": "satin-dress-short-purple",
+      "colors": [
+        "Purple"
+      ],
+      "sizes": [
+        "Medium"
+      ],
+      "department": "women",
+      "tags": [
+        "satin",
+        "party wear"
+      ],
+      "id": "satin-dress-short-purple",
+      "createdAt": "2026-10-29",
+      "image": "/uploads/img_4251-2.jpg",
+      "inventory": "available",
+      "description": "Satin dress with mirror work",
+      "price_on_inquiry": false,
+      "category": "Party Wear"
     }
   ]
 }
