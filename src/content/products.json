@@ -2252,6 +2252,37 @@
       "description": "Satin dress with mirror work",
       "price_on_inquiry": false,
       "category": "Party Wear"
+    },
+    {
+      "fabric": "Gul-e-bakhmal",
+      "galleryImages": [
+        "/uploads/img_4460.jpg",
+        "/uploads/img_4481.jpg",
+        "/uploads/img_4482.jpg"
+      ],
+      "name": "Alya dress",
+      "slug": "Alya-dress-pink-kochi",
+      "colors": [
+        "Pink"
+      ],
+      "sizes": [
+        "Medium"
+      ],
+      "department": "women",
+      "popularity": 100,
+      "tags": [
+        "kochi",
+        "gul e bakhmal",
+        "bridal",
+        "Alya"
+      ],
+      "id": "Alya-dress-pink-kochi",
+      "createdAt": "2026-10-31",
+      "image": "/uploads/img_4460.jpg",
+      "inventory": "available",
+      "description": "Beautiful pink kochi dress with cheerma detailing ",
+      "price_on_inquiry": true,
+      "category": "Bridal"
     }
   ]
 }
